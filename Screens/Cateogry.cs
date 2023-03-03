@@ -16,5 +16,9 @@ namespace POS_Demo.Screens
         {
             InitializeComponent();
         }
+        public void say()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
