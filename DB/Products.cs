@@ -23,10 +23,10 @@ namespace POS_Demo.DB
         public int id { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }
-        public Nullable<decimal> Price { get; set; }
         public Nullable<int> Quantity { get; set; }
         public string Notes { get; set; }
         public string Image { get; set; }
+        public Nullable<decimal> Price { get; set; }
         public Nullable<int> cateogryId { get; set; }
     
         public virtual Cateogry Cateogry { get; set; }

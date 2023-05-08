@@ -18,7 +18,7 @@ namespace POS_Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new POS_Demo.Screens.SalesBillsFrm());
+            Application.Run(new Form1());
         }
     }
 }

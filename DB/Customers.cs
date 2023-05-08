@@ -24,10 +24,10 @@ namespace POS_Demo.DB
         public string Name { get; set; }
         public string Address { get; set; }
         public string Notes { get; set; }
+        public string CustPhone { get; set; }
         public string Compaby { get; set; }
         public Nullable<bool> IsActive { get; set; }
         public string Image { get; set; }
-        public string CustPhone { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<salesBill> salesBill { get; set; }

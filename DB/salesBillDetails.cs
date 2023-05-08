@@ -21,7 +21,7 @@ namespace POS_Demo.DB
         public Nullable<int> quantity { get; set; }
         public Nullable<decimal> totalPrice { get; set; }
     
-        public virtual salesBill salesBill { get; set; }
         public virtual Products Products { get; set; }
+        public virtual salesBill salesBill { get; set; }
     }
 }
